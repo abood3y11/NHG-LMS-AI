@@ -1,0 +1,63 @@
+{
+  "lectures": [
+    {
+      "id": "1",
+      "courseId": "CS401",
+      "title": "Introduction to Machine Learning",
+      "lectureNumber": "1",
+      "date": "Apr 20, 2025",
+      "time": "09:00 - 10:30 AM",
+      "room": "301",
+      "status": "live",
+      "attendees": 45,
+      "materials": [
+        {
+          "type": "slides",
+          "url": "lecture1_slides.pdf"
+        },
+        {
+          "type": "code",
+          "url": "example1.ipynb"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "courseId": "CS401",
+      "title": "Neural Networks Basics",
+      "lectureNumber": "2",
+      "date": "Apr 22, 2025",
+      "time": "09:00 - 10:30 AM",
+      "room": "301",
+      "status": "upcoming",
+      "attendees": 42,
+      "materials": [
+        {
+          "type": "slides",
+          "url": "lecture2_slides.pdf"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "courseId": "CS401",
+      "title": "Python Programming Fundamentals",
+      "lectureNumber": "0",
+      "date": "Apr 18, 2025",
+      "time": "09:00 - 10:30 AM",
+      "room": "301",
+      "status": "completed",
+      "attendees": 48,
+      "materials": [
+        {
+          "type": "slides",
+          "url": "lecture0_slides.pdf"
+        },
+        {
+          "type": "code",
+          "url": "intro.ipynb"
+        }
+      ]
+    }
+  ]
+}
