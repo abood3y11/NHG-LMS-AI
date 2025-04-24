@@ -1,0 +1,50 @@
+research_task:
+  description: >
+    Conduct comprehensive analysis of {topic} data across all KSU JSON files.
+            Identify:
+            1. Key concepts and their relationships
+            2. Patterns in student performance
+            3. Gaps in curriculum coverage
+            4. Emerging trends in the subject area
+  expected_output: >
+    nullStructured findings document containing:
+            - Top 5 most important {topic} concepts
+            - 3 significant student learning patterns
+            - 2 recommended curriculum improvements
+            - Data sources for each finding
+  agent: researcher
+
+reporting_task:
+  description: >
+    Transform the research findings about {topic} into an executive report suitable for:
+            1. University administrators
+            2. Department faculty
+            3. Accreditation reviewers
+            Include visualizations where appropriate.
+  expected_output: >
+    Professional report containing:
+            - 1-page executive summary
+            - 3-5 data visualizations
+            - Key findings section
+            - Recommendations section
+            - Appendix with methodology
+  agent: reporting_analyst
+
+
+GradingTask:
+  description: >
+   Analyze student performance data on {topic} and:
+            1. Apply standard grading rubrics
+            2. Identify common misconceptions
+            3. Suggest targeted interventions
+            4. Provide cohort-level performance metrics
+  expected_output: >
+    Assessment report containing:
+            - Overall class performance statistics
+            - Rubric-based score distributions
+            - Top 3 areas of student difficulty
+            - Recommended teaching adjustments
+            - Individual student evaluation guidelines
+  agent: GradingAgent
+
+
